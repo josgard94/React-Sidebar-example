@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-Sidebar-example/static/css/main.7d763894.css",
-    "main.js": "/React-Sidebar-example/static/js/main.b6f3e175.js",
+    "main.js": "/React-Sidebar-example/static/js/main.97ee9dd3.js",
     "static/js/787.71df535f.chunk.js": "/React-Sidebar-example/static/js/787.71df535f.chunk.js",
     "index.html": "/React-Sidebar-example/index.html",
     "main.7d763894.css.map": "/React-Sidebar-example/static/css/main.7d763894.css.map",
-    "main.b6f3e175.js.map": "/React-Sidebar-example/static/js/main.b6f3e175.js.map",
+    "main.97ee9dd3.js.map": "/React-Sidebar-example/static/js/main.97ee9dd3.js.map",
     "787.71df535f.chunk.js.map": "/React-Sidebar-example/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d763894.css",
-    "static/js/main.b6f3e175.js"
+    "static/js/main.97ee9dd3.js"
   ]
 }
