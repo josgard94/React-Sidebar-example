@@ -33,7 +33,7 @@ const Sidebar = () => {
       <List sx={{ borderTop: "1px solid rgba(255, 255, 255, 0.1)" }}>
         <ListItemButton
           component={Link}
-          to="/"
+          to="React-Sidebar-example/"
           sx={{ borderBottom: "1px solid rgba(255, 255, 255, 0.1)" }}
         >
           <ListItemIcon>
@@ -51,7 +51,7 @@ const Sidebar = () => {
         </ListItemButton>
         <ListItemButton
           component={Link}
-          to="/cats"
+          to="React-Sidebar-example/cats"
           sx={{ borderBottom: "1px solid rgba(255, 255, 255, 0.1)" }}
         >
           <ListItemIcon>
@@ -69,7 +69,7 @@ const Sidebar = () => {
         </ListItemButton>
         <ListItemButton
           component={Link}
-          to="/dogs"
+          to="React-Sidebar-example/dogs"
           sx={{ borderBottom: "1px solid rgba(255, 255, 255, 0.1)" }}
         >
           <ListItemIcon>

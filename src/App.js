@@ -5,6 +5,7 @@ import { Box, Container, Toolbar } from "@mui/material";
 import Home from "./pages/home";
 import Cats from "./pages/cats";
 import Dogs from "./pages/dogs";
+import ErrorPage from "./pages/404";
 
 function App() {
   return (
@@ -16,13 +17,12 @@ function App() {
           <Container maxWidth="lg">
             {
               <Routes>
-                <Route exact path={"/"} element={<Home/>} />
-                <Route exact path={"React-Sidebar-example"} element={<Home/>}/>
-                <Route path={"/cats"} element={<Cats/>} />
-                <Route path={"/dogs"} element={<Dogs/>} />
+                <Route exact path={"React-Sidebar-example/"} element={<Home/>} />
+                <Route path={"React-Sidebar-example/cats"} element={<Cats/>} />
+                <Route path={"React-Sidebar-example/dogs"} element={<Dogs/>} />
                 <Route
                   path="*"
-                  element={<h1>404</h1>}
+                  element={<ErrorPage/>}
                 />
               </Routes>
             }
