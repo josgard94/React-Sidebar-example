@@ -1,19 +1,12 @@
 import React from "react";
 import "./../styles/index.css";
-import ImageGallery from "../components/galery";
-import { Box, Container } from "@mui/material";
-class Cats extends React.Component {
-    createGalery = () => {
-        const gallery1Images = [
-            { src: 'imagen1.jpg', title: 'Imagen 1' },
-            { src: 'imagen2.jpg', title: 'Imagen 2' }
-        ];
 
-        return <ImageGallery images={gallery1Images} title="Galería 1" />
-    }
-    render() {
+class Cats extends React.Component {
+  render() {
     return (
-        this.createGalery()
+      <div className="page-heading">
+        <h1 className="title">CATS PAGE</h1>
+      </div>
     );
   }
 }
